@@ -21,9 +21,9 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 
-		<sonar.host.url>http://34.219.55.23:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.42.121:9182/lokeshreddy/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.80.6.63:8888/landmarktech/repository/ebay-releases/</url>
+	      <url>http://172.31.13.39:1999/lokeshreddy/repository/icicibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.80.6.63:8888/landmarktech/repository/ebay-snapshots/</url>
+	      <url>http://172.31.13.39:1999/lokeshreddy/repository/icicibank-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
